@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="397b3357-4122-4700-b66e-ac841b3c2f0c">
+  <producedTypes>
+    <refType typeId="7c0aa65a-716a-4d97-b232-4a327da7b167" valueTypeId="7da4260e-796a-43c6-bf6d-0109900bb7d0"/>
+    <listType typeId="22ea5bb7-28dd-4395-9d48-c22c23ecc3c1" valueTypeId="d12bf800-f469-4dfa-bf6a-94dc6da21ec5"/>
+    <managerType typeId="63f340c2-8ce9-4523-95ac-c07e34a0d42b" valueTypeId="12d28993-fd10-4680-8717-6372f3b75c54"/>
+  </producedTypes>
+  <name>НевыходыНаРаботу</name>
+  <synonym>
+    <key>ru</key>
+    <value>Невыходы на работу</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="8d6549d6-f96e-4728-9b99-64a191050e60">
+    <name>Больничные</name>
+    <synonym>
+      <key>ru</key>
+      <value>Больничные</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="d6c8f7f8-8766-4364-990d-2e51a59cea35">
+    <name>Отпуска</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отпуска</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="e8951907-87c2-4e9a-b5f0-deeee9cde409">
+    <name>Командировка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Командировка</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

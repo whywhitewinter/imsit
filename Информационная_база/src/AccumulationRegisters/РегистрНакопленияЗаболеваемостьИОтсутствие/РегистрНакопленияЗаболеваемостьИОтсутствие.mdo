@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b105eb69-ed79-45cc-b3d2-b42ffa1658b7">
+  <producedTypes>
+    <selectionType typeId="ae874cac-222f-4a6a-a0b6-9f042766af04" valueTypeId="40c803df-c313-40b9-92c4-ec790143e09b"/>
+    <listType typeId="149d0569-9bae-4270-bbe0-cf419e2b82ea" valueTypeId="22597538-6b9f-44c0-839e-29d3dc16fca8"/>
+    <managerType typeId="53123fd9-0f73-499e-b46c-a20b331e0d1a" valueTypeId="4b3a2802-6701-4f0c-b38c-2e52074236ff"/>
+    <recordSetType typeId="138e9182-bf9c-4d82-b5eb-8e2968c334a5" valueTypeId="5d6e207f-405e-4398-bfc1-c29e2bd64191"/>
+    <recordKeyType typeId="c40c95f7-113f-468e-afdd-dc9b96050d9f" valueTypeId="81bdb89b-dca0-4154-b0fa-834ddac98fbc"/>
+    <recordType typeId="143d1480-55b3-48c8-a7e8-0a0fdaf3fce6" valueTypeId="dfa76c96-ec94-47e8-851d-3e6d42044c4a"/>
+  </producedTypes>
+  <name>РегистрНакопленияЗаболеваемостьИОтсутствие</name>
+  <synonym>
+    <key>ru</key>
+    <value>Регистр накопления «Заболеваемость и отсутствие»</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>RecordType</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSplitting>true</enableTotalsSplitting>
+  <resources uuid="7e66535b-3660-4cb4-9859-ad24486b4590">
+    <name>КоличествоПропущенныхДнейИлиЧасов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество пропущенных дней или часов</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <dimensions uuid="6f95a8eb-e817-4ddd-9d6e-dd586c959411">
+    <name>Сотрудник</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сотрудник</value>
+    </synonym>
+    <type>
+      <types>DocumentRef</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="62d036bb-424e-427a-99f9-ac0c6b3a83ac">
+    <name>ПричинаОтсутствия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Причина отсутствия</value>
+    </synonym>
+    <type>
+      <types>DocumentRef</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+</mdclass:AccumulationRegister>
